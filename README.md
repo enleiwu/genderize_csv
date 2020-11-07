@@ -1,5 +1,7 @@
 # umbrella-digital
 
+The code is written in Javascript
+
 ### Requirements
 - node
 - npm
@@ -15,3 +17,6 @@
 ### Examples
 - To run the script on test3.csv in test folder: `node genderize.js ./test/test3.csv`
 - To run with parameters for binary gender columns and a firstname column: `node genderize.js ./test/test3.csv -OVR`
+
+### Notes
+- The npm JS library provided by genderize.io lacks many key features including batching and the probability and count column from the result sets, so I decided to implement genderize via their API instead.
