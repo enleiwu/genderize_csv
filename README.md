@@ -8,6 +8,7 @@
 
 - Clone the repo: `git clone https://github.com/enleiwu/umbrella-digital.git`
 - Download dependencies: `npm install`
+- Replace process.env.GENDERIZE_API_KEY with genderize api key OR create a .env file in the root directory and insert the line `GENDERIZE_API_KEY=<genderize-api-key>`
 - Run the script: `node genderize.js <target-file> <parameters>`
 - Acceptable params: `-OVR` or `--override`
 
